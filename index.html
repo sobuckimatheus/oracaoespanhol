@@ -113,6 +113,54 @@
   /* ── SECTION GENERIC ── */
   section { padding: 64px 20px; }
 
+  /* ── PAIN POINTS SECTION ── */
+  .pain-section {
+    background: #1e3a30;
+    padding: 72px 20px;
+  }
+
+  .pain-section .section-title {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    font-weight: 700;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 48px;
+    line-height: 1.3;
+  }
+
+  .pain-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .pain-card {
+    background: rgba(0,0,0,.25);
+    border-radius: 14px;
+    padding: 22px 24px;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .pain-card .pain-emoji {
+    font-size: 1.6rem;
+    line-height: 1;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .pain-card p {
+    color: #e8e0d8;
+    font-size: 1rem;
+    line-height: 1.55;
+    margin: 0;
+  }
+
   .container { max-width: 860px; margin: 0 auto; }
 
   .section-title {
@@ -530,6 +578,35 @@
   <div class="hero-bg"></div>
 </section>
 <div class="gold-divider"></div>
+
+<!-- ══════════════ PAIN POINTS ══════════════ -->
+<section class="pain-section">
+  <div class="container">
+    <h2 class="section-title">Yo sé, estás cansada de esperar al hombre que Dios prometió...</h2>
+    <div class="pain-list">
+      <div class="pain-card">
+        <span class="pain-emoji">💔</span>
+        <p>Ya hiciste todo "bien" — oraste, esperaste, te entregaste — y sigues sola</p>
+      </div>
+      <div class="pain-card">
+        <span class="pain-emoji">😔</span>
+        <p>Sientes que algo está mal en ti, como si la promesa fuera para todas menos para ti</p>
+      </div>
+      <div class="pain-card">
+        <span class="pain-emoji">🔄</span>
+        <p>Sigues atrayendo a los hombres equivocados o relaciones que no llevan a ningún lado</p>
+      </div>
+      <div class="pain-card">
+        <span class="pain-emoji">😰</span>
+        <p>Tienes miedo de que tu tiempo ya pasó y que la voluntad de Dios para tu matrimonio nunca llegue</p>
+      </div>
+      <div class="pain-card">
+        <span class="pain-emoji">🙏</span>
+        <p>Oras, pero sientes que tus palabras no llegan a ningún lado — como si hubiera un bloqueo espiritual</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- ══════════════ PROMISE STRIP ══════════════ -->
 <div class="promise-strip">
