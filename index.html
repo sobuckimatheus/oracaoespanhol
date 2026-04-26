@@ -571,6 +571,102 @@
     gap: 6px;
   }
 
+  /* ── AUTHORITY BLOCK ── */
+  .authority-section {
+    background: #1e3a30;
+    padding: 80px 20px;
+    text-align: center;
+  }
+
+  .authority-label {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 28px;
+  }
+
+  .authority-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    border: 3px solid var(--gold);
+    object-fit: cover;
+    margin: 0 auto 24px;
+    display: block;
+    background: #2d5a40;
+  }
+
+  .authority-photo-placeholder {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    border: 3px solid var(--gold);
+    background: #2d5a40;
+    margin: 0 auto 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gold);
+    font-size: 0.85rem;
+  }
+
+  .authority-name {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.8rem, 4vw, 2.4rem);
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+
+  .authority-role {
+    font-size: 1rem;
+    color: var(--gold);
+    margin-bottom: 36px;
+  }
+
+  .authority-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 640px;
+    margin: 0 auto 40px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 16px;
+    overflow: hidden;
+  }
+
+  .authority-stat {
+    padding: 20px 16px;
+    border-right: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .authority-stat:last-child { border-right: none; }
+
+  .authority-stat-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--gold);
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .authority-stat-label {
+    font-size: 0.85rem;
+    color: #c9bcb0;
+  }
+
+  .authority-bio {
+    max-width: 660px;
+    margin: 0 auto;
+    font-size: 1.05rem;
+    color: #c9bcb0;
+    line-height: 1.8;
+    text-align: center;
+  }
+
   /* ── PROMISE STRIP ── */
   .promise-strip {
     background: linear-gradient(135deg, #f5e6c8 0%, #fdf8f0 100%);
@@ -1145,202 +1241,34 @@
     <p class="offer-price-big">$9,99</p>
     <p class="offer-price-sub">pago único — acceso inmediato y vitalicio</p>
     <a href="#" class="offer-cta">Sí, quiero mi Oración Profética</a>
-    <p class="offer-payments">💳 VISA &bull; Mastercard &bull; American Express</p>
   </div>
 </section>
 <div class="gold-divider"></div>
 
-<!-- ══════════════ PROMISE STRIP ══════════════ -->
-<div class="promise-strip">
+<!-- ══════════════ AUTHORITY BLOCK ══════════════ -->
+<section class="authority-section">
   <div class="container">
-    <h2>Con la Oración Profética, verás cómo tus futuras victorias ya han pasado por ti</h2>
-    <p>Mujeres de todo el mundo están transformando sus vidas — y la próxima eres <strong>tú</strong>.</p>
-  </div>
-</div>
-
-<!-- ══════════════ HOW WILL YOUR LIFE CHANGE ══════════════ -->
-<section class="dark-section">
-  <div class="container">
-    <h2 class="section-title">Así es como tu vida va a cambiar después de recibirla</h2>
-    <p class="section-sub" style="color:#c9bcb0;">Una oración profética personalizada actúa en áreas clave de tu existencia:</p>
-    <div class="benefits-grid">
-      <div class="benefit-card">
-        <span class="benefit-icon">💒</span>
-        <h3>Apertura de caminos espirituales</h3>
-        <p>Barreras invisibles son removidas para que las bendiciones fluyan libremente en tu vida.</p>
+    <p class="authority-label">Sobre la autora</p>
+    <img class="authority-photo" src="diana.png" alt="Diana Mascarello" />
+    <h2 class="authority-name">Diana Mascarello</h2>
+    <p class="authority-role">Terapeuta Espiritual &amp; Especialista en Relaciones</p>
+    <div class="authority-stats">
+      <div class="authority-stat">
+        <span class="authority-stat-number">+140k</span>
+        <span class="authority-stat-label">seguidoras</span>
       </div>
-      <div class="benefit-card">
-        <span class="benefit-icon">💑</span>
-        <h3>Restauración de tu futuro esposo</h3>
-        <p>Si estás creyendo en un matrimonio prometido por Dios, la oración profética prepara el terreno sobrenatural.</p>
+      <div class="authority-stat">
+        <span class="authority-stat-number">7 años</span>
+        <span class="authority-stat-label">de experiencia</span>
       </div>
-      <div class="benefit-card">
-        <span class="benefit-icon">💚</span>
-        <h3>Corazón sano y libre</h3>
-        <p>Sana heridas del pasado y encuentra paz profunda que solo Dios puede dar.</p>
-      </div>
-      <div class="benefit-card">
-        <span class="benefit-icon">🔗</span>
-        <h3>Liberación de ataduras</h3>
-        <p>Rompe con lazos que te prenden al pasado y avanza hacia tu propósito divino.</p>
+      <div class="authority-stat">
+        <span class="authority-stat-number">+10k</span>
+        <span class="authority-stat-label">alumnas activas</span>
       </div>
     </div>
+    <p class="authority-bio">Soy terapeuta y descubrí que mi misión es ayudar a las personas a atraer buenas relaciones a través de la reprogramación mental, la limpieza emocional y la conexión espiritual. Creo que cada persona merece vivir un amor verdadero y divino — y he dedicado mi vida a ayudar a mujeres a desbloquear ese camino.</p>
   </div>
 </section>
-
-<!-- ══════════════ TESTIMONIALS ══════════════ -->
-<section style="background:#fdf8f0;">
-  <div class="container">
-    <h2 class="section-title">Mira cómo otras mujeres ya están viviendo <em>sus victorias</em></h2>
-    <p class="section-sub">Testimonios reales de quienes recibieron la Oración Profética personalizada:</p>
-    <div class="testi-grid">
-      <div class="testi-card">
-        <p>Después de recibir mi oración, en menos de dos semanas mi situación financiera dio un giro increíble. ¡Dios es fiel!</p>
-        <span class="testi-name">— Mariana G., Colombia</span>
-      </div>
-      <div class="testi-card">
-        <p>Diana oró proféticamente sobre mi matrimonio y en 30 días mi esposo volvió a casa. Lloro de gratitud cada vez que recuerdo.</p>
-        <span class="testi-name">— Luciana R., México</span>
-      </div>
-      <div class="testi-card">
-        <p>Estaba en el fondo del pozo emocionalmente. Esa oración fue la mano de Dios que me sacó. Hoy soy libre y feliz.</p>
-        <span class="testi-name">— Valentina S., Argentina</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ══════════════ WHAT YOU RECEIVE ══════════════ -->
-<section class="receive-section">
-  <div class="container">
-    <h2 class="section-title">Todo lo que vas a recibir en la <em>Oración Profética</em></h2>
-    <p class="section-sub">Un paquete completo diseñado para transformar tu vida de adentro hacia afuera:</p>
-    <div class="receive-list">
-      <div class="receive-item">
-        <div class="receive-number">1</div>
-        <div>
-          <h3>Oración Profética Personalizada</h3>
-          <p>Una oración escrita para ti, de acuerdo con tu momento de vida y las promesas que Dios tiene para ti.</p>
-        </div>
-      </div>
-      <div class="receive-item">
-        <div class="receive-number">2</div>
-        <div>
-          <h3>Profecía Astral</h3>
-          <p>Revelación de lo que el Espíritu Santo ha declarado sobre tu futuro.</p>
-        </div>
-      </div>
-      <div class="receive-item">
-        <div class="receive-number">3</div>
-        <div>
-          <h3>Palabra de Conocimiento</h3>
-          <p>Una palabra específica y directa de Dios sobre tu situación actual.</p>
-        </div>
-      </div>
-      <div class="receive-item">
-        <div class="receive-number">4</div>
-        <div>
-          <h3>Oración de desatadura</h3>
-          <p>Rompimiento de lazos espirituales que impiden tu avance.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ══════════════ BONUS ══════════════ -->
-<section class="bonus-section">
-  <div class="container">
-    <h2 class="section-title">¡Y todavía no es todo!</h2>
-    <p class="section-sub">Además de la oración, recibirás estos poderosos bonos:</p>
-    <div class="bonus-grid">
-      <div class="bonus-card">
-        <div class="bonus-header">
-          <div class="bonus-label">Bono Especial</div>
-          <h3>Futuro Esposo</h3>
-        </div>
-        <div class="bonus-body">
-          <p>Un estudio completo sobre cómo prepararte espiritualmente para recibir al hombre que Dios tiene para ti.</p>
-          <ul class="bonus-includes">
-            <li>Oraciones diarias de espera</li>
-            <li>Declaraciones proféticas de esposa</li>
-            <li>Plan de 21 días de fe</li>
-          </ul>
-        </div>
-      </div>
-      <div class="bonus-card">
-        <div class="bonus-header">
-          <div class="bonus-label">Bono Especial</div>
-          <h3>Corazón Sano</h3>
-        </div>
-        <div class="bonus-body">
-          <p>Guía para sanar el corazón de heridas emocionales con base en principios bíblicos y proféticos.</p>
-          <ul class="bonus-includes">
-            <li>Meditaciones de sanidad interior</li>
-            <li>Rituales de perdón y liberación</li>
-            <li>Decretos diarios de restauración</li>
-          </ul>
-        </div>
-      </div>
-      <div class="bonus-card">
-        <div class="bonus-header">
-          <div class="bonus-label">Bono Especial</div>
-          <h3>Sin Ataduras</h3>
-        </div>
-        <div class="bonus-body">
-          <p>Aprende a romper definitivamente los lazos que te atan al pasado y a personas que ya no son parte de tu destino.</p>
-          <ul class="bonus-includes">
-            <li>Protocolo de desatadura espiritual</li>
-            <li>Oraciones de cierre de ciclos</li>
-            <li>Decretos de identidad nueva</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ══════════════ PRICING ══════════════ -->
-<section class="pricing-section">
-  <div class="container">
-    <h2 class="section-title">Recapitulando todo lo que recibirás</h2>
-    <p style="color:#c9bcb0; margin-bottom:0;">Un valor total incomparable por una inversión mínima:</p>
-    <div class="pricing-box">
-      <div class="pricing-tag">🔥 Oferta por tiempo limitado</div>
-      <p class="price-from">De $97 USD</p>
-      <p class="price-main">8× de $5.27</p>
-      <p class="price-installment">o un solo pago — acceso inmediato y vitalicio</p>
-      <a href="#" class="cta-btn">¡Quiero mi Oración Profética ahora!</a>
-      <p class="guarantee">🔒 Compra segura &nbsp;·&nbsp; Garantía de 7 días &nbsp;·&nbsp; Acceso inmediato</p>
-    </div>
-  </div>
-</section>
-
-<!-- ══════════════ AUTHOR ══════════════ -->
-<section class="author-section">
-  <div class="author-inner">
-    <div class="author-photo">
-      <img src="https://placehold.co/220x280/3b200a/e8c97a?text=Diana" alt="Diana Mascarello">
-    </div>
-    <div class="author-info">
-      <p class="author-label">Sobre la autora</p>
-      <h2>Diana Mascarello</h2>
-      <p>Diana Mascarello es intercesora, profetisa y mentora espiritual con más de una década de experiencia guiando mujeres a través de momentos de crisis hacia el cumplimiento pleno del propósito de Dios en sus vidas.</p>
-      <p>Su ministerio profético ya ha impactado a miles de mujeres en toda América Latina, llevando sanidad, dirección y revelación sobrenatural a través de la oración.</p>
-      <p>Con la Oración Profética, Diana une su sensibilidad espiritual con la Palabra de Dios para declarar sobre tu vida lo que el cielo ya decidió.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ══════════════ FINAL CTA ══════════════ -->
-<section style="background:linear-gradient(135deg,#f5e6c8,#fdf8f0); text-align:center; padding:60px 20px;">
-  <div class="container">
-    <h2 class="section-title">¿Aún no te decides?</h2>
-    <p class="section-sub">Miles de mujeres ya están viviendo sus promesas. Tu tiempo es <em>ahora</em>.</p>
-    <a href="#" class="cta-btn" style="max-width:420px; margin:0 auto; display:block;">Sí, quiero acceder a la Oración Profética</a>
-  </div>
-</section>
-<div class="gold-divider"></div>
 
 <!-- ══════════════ FOOTER ══════════════ -->
 <footer>
