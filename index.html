@@ -345,6 +345,104 @@
     margin: 0;
   }
 
+  /* ── SIXTH BLOCK – RECEIVE CARD ── */
+  .receive-card-section {
+    background: var(--cream);
+    padding: 80px 20px;
+    text-align: center;
+  }
+
+  .receive-card-section .section-title {
+    color: var(--green);
+    font-size: clamp(1.9rem, 4.2vw, 2.8rem);
+    max-width: 680px;
+    margin: 0 auto 40px;
+  }
+
+  .receive-card-box {
+    background: #1e3a30;
+    border-radius: 20px;
+    max-width: 560px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.18);
+  }
+
+  .receive-card-box img {
+    width: 100%;
+    display: block;
+  }
+
+  .receive-card-body {
+    padding: 32px 32px 36px;
+    text-align: left;
+  }
+
+  .receive-card-label {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--gold);
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .receive-card-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .receive-card-items li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    color: #e8e0d8;
+    font-size: 1rem;
+    line-height: 1.55;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .receive-card-items li:last-child { border-bottom: none; }
+
+  .receive-card-items li::before {
+    content: '✦';
+    color: var(--gold);
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  .receive-card-section .receive-card-box + .receive-card-box {
+    margin-top: 32px;
+  }
+
+  .receive-card-imgs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+  }
+
+  .receive-card-imgs img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+
+  .receive-card-desc {
+    color: #c9bcb0;
+    font-size: 0.97rem;
+    line-height: 1.65;
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+
   /* ── PROMISE STRIP ── */
   .promise-strip {
     background: linear-gradient(135deg, #f5e6c8 0%, #fdf8f0 100%);
@@ -839,6 +937,45 @@
           <p>Acceso inmediato. Tu oración llega directo a tu correo electrónico el mismo día.</p>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+<div class="gold-divider"></div>
+
+<!-- ══════════════ SIXTH BLOCK – RECEIVE CARD ══════════════ -->
+<section class="receive-card-section">
+  <div class="container">
+    <h2 class="section-title">Mira todo lo que vas a recibir en la Oración Profética</h2>
+  </div>
+  <div class="receive-card-box">
+    <img src="futuroesposo.png" alt="Oración por tu futuro esposo" />
+    <div class="receive-card-body">
+      <p class="receive-card-label">✦ Oración Profética Personalizada</p>
+      <ul class="receive-card-items">
+        <li>Escrita para tu historia y tus heridas específicas</li>
+        <li>Basada en tus patrones emocionales y bloqueos</li>
+        <li>Profetiza el camino hasta tu promesa</li>
+        <li>Entregada directo en tu correo electrónico</li>
+        <li>Acceso inmediato y vitalicio</li>
+      </ul>
+    </div>
+  </div>
+  <div class="receive-card-box">
+    <div class="receive-card-imgs">
+      <img src="laclave.png" alt="La Clave" />
+      <img src="laruptura.png" alt="La Ruptura" />
+      <img src="romper.png" alt="Romper" />
+    </div>
+    <div class="receive-card-body">
+      <p class="receive-card-label">✦ Ruptura de los Lazos Ocultos</p>
+      <p class="receive-card-desc">Audios de reprogramación emocional y espiritual y actividades escritas que romperán todos los lazos que impiden que tu oración sea escuchada en los cielos.</p>
+    </div>
+  </div>
+  <div class="receive-card-box">
+    <img src="romper.png" alt="Desbloquear la Promesa" />
+    <div class="receive-card-body">
+      <p class="receive-card-label">✦ Desbloquear la Promesa</p>
+      <p class="receive-card-desc">Con un único audio vas a desbloquear tu vida amorosa, liberándote de gatillos inconscientes y trabas espirituales.</p>
     </div>
   </div>
 </section>
